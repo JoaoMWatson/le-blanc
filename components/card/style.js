@@ -18,6 +18,7 @@ const ProductImage = styled.img`
   width: 100%;
   height: 20%;
   border-radius: 4px 4px 0 0;
+  border-bottom:2px solid #DCE2E6;
 `
 
 const ProductName = styled.h2`
