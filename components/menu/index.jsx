@@ -3,7 +3,7 @@ import { MenuContainer, StyledLink } from "./style";
 import Link from "next/link";
 
 const Menu = (props) => {
-  const [inPage, setInpage] = useState([]);
+  const [inPage, setInpage] = useState([true, false, false]);
   
   useEffect(() => {
     switch(props.page){

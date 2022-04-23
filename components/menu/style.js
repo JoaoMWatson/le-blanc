@@ -7,6 +7,8 @@ const MenuContainer = styled.div`
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
+  margin-right:1%;
+  width:100%;
 `
 
 const StyledLink = styled.a`
