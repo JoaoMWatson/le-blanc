@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { colors, devices, fonts } from '../../styles/variables'
 
 const CardContainer = styled.div`
-  width: 20%;
+  width: 18rem;
   height: 0%;
   border-radius: 4px 4px 4px 4px;
   padding-bottom: 1%;
