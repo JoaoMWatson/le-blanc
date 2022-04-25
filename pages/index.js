@@ -4,7 +4,7 @@ import Menu from "../components/menu";
 import Card from "../components/card";
 import Header from "../components/header";
 import { Container, CardGrid } from "../styles/styles";
-
+import data from "./api/products.json"
 import { useState } from "react";
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
         <Menu page="home"/>
         <CardGrid>
           <Card
+            key={data.products.id}
             input={userInput}
           />
         </CardGrid>

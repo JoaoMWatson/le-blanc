@@ -23,11 +23,11 @@ const Card = (props) => {
     <>
       {filteredData.map((item) => (
         <>
-          <CardContainer>
+          <CardContainer key={item.id}>
             <ProductImage src={item.image} />
-            <ProductName>{item.productName}</ProductName>
+            <ProductName >{item.productName}</ProductName>
             <Divider />
-            <ProductPrice>{item.productPrice}</ProductPrice>
+            <ProductPrice >{item.productPrice}</ProductPrice>
           </CardContainer>
         </>
       ))}
