@@ -22,14 +22,12 @@ const Card = (props) => {
   return (
     <>
       {filteredData.map((item) => (
-        <>
           <CardContainer key={item.id}>
             <ProductImage src={item.image} />
             <ProductName >{item.productName}</ProductName>
             <Divider />
             <ProductPrice >{item.productPrice}</ProductPrice>
           </CardContainer>
-        </>
       ))}
     </>
   );
